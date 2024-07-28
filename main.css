@@ -1,18 +1,18 @@
 body {
-    color: white;
-    -webkit-text-stroke: 0.8px black;
-    text-align: center;
-    font-family: 'Pusab', sans-serif;
-    filter: drop-shadow(2.5px 2.5px 0px rgba(0, 0, 0, 0.25));
+  color: white;
+  -webkit-text-stroke: 0.8px black;
+  text-align: center;
+  font-family: 'Press Start 2P', sans-serif;
+  filter: drop-shadow(2.5px 2.5px 0px rgba(0, 0, 0, 0.25));
 }
 
-  .levelBG {
-    background-image: linear-gradient(#6E00FD, #330074);
-    height: 100vh;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+.levelBG {
+  background-image: linear-gradient(#1900ff, #067f02);
+  height: 100vh;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 h1 {
@@ -40,33 +40,33 @@ p {
   height: 105px;
   width: 105px;
   transition-duration: 0.2s;
-  }
+}
 
-  .link {
-    color: rgb(0, 225, 255);
-    -webkit-text-stroke: 0.8px black;
-    text-align: center;
-    font-family: 'Pusab', sans-serif;
-    text-decoration: none;
-    transition-duration: 0.2s;
-    filter: drop-shadow(2.5px 2.5px 0px rgba(0, 0, 0, 0.25));
+.link {
+  color: rgb(0, 225, 255);
+  -webkit-text-stroke: 0.8px black;
+  text-align: center;
+  font-family: 'Press Start 2P', sans-serif;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  filter: drop-shadow(2.5px 2.5px 0px rgba(0, 0, 0, 0.25));
 }
 
 .link:hover {
-    color: aqua;
-    transition-duration: 0.1s;
+  color: aqua;
+  transition-duration: 0.1s;
 }
 
-  .credit {
+.credit {
   position: fixed;
   text-align: right;
-  top: 100-cm;
+  top: 100cm;
   right: 7px;
-  }
+}
 
-  .discord {
-    position: fixed;
-    text-align: right;
-    top: 100-cm;
-    left: 7px;
-    }
+.discord {
+  position: fixed;
+  text-align: right;
+  top: 100cm;
+  left: 7px;
+}

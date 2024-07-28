@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=1024" />
+        <title>DOUGDPS DemonList</title>
+        <link rel="icon" href="https://cdn.discordapp.com/attachments/1213210439123603507/1213210551312973844/1709322027540.png?ex=65f4a55f&is=65e2305f&hm=fad061a6b872869b9b596b5baadac2e9efab7da216925b78e318d96301f3ef48&" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@500;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" type="text/css" href="/css/reset.css" />
+        <link rel="stylesheet" type="text/css" href="/css/typography.css" />
+        <link rel="stylesheet" type="text/css" href="/css/main.css" />
+        <link rel="stylesheet" type="text/css" href="/css/pages/list.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="/css/pages/leaderboard.css"
+        />
+        <link rel="stylesheet" type="text/css" href="/css/pages/roulette.css" />
+        <link rel="stylesheet" type="text/css" href="/css/components/nav.css" />
+        <link rel="stylesheet" type="text/css" href="/css/components/btn.css" />
+        <script src="https://unpkg.com/vue@3.2.31/dist/vue.global.js"></script>
+        <script src="https://unpkg.com/vue-router@4.0.14/dist/vue-router.global.prod.js"></script>
+        <script type="module" src="/js/main.js"></script>
+    </head>
+    <body id="app">
+        <header :class="{ dark: store.dark }">
+            <div class="logo">
+                <h2>DOU GDPS DL</h2>
+                <p>v0.3</p>
+            </div>
+            <nav class="nav">
+                <router-link class="nav__tab" to="/">
+                    <span class="type-label-lg">Lista</span>
+                </router-link>
+                <router-link class="nav__tab" to="/leaderboard">
+                    <span class="type-label-lg">Jugadores</span>
+                </router-link>
+                <router-link class="nav__tab" to="/roulette">
+                    <span class="type-label-lg">Ruleta</span>
+                </router-link>
+                <div class="nav__actions">
+                    <button
+                        class="nav__icon"
+                        @click.prevent="store.toggleDark()"
+                    >
+                        <img
+                            :src="store.dark ? '/assets/light.svg' : '/assets/dark.svg'"
+                            alt=""
+                        />
+                    </button>
+                    <a class="nav__icon" href="/extended-page/rules.html">
+                        <img src="/assets/discord.svg" alt="Discord Logo" />
+                    </a>
+                    <a
+                        class="nav__cta type-label-lg"
+                        href="/extended-page/record-sumbit.html"
+                        target="_blank"
+                        >Subir Record</a
+                    >
+                    <a
+                        class="nav__cta type-label-lg"
+                        href="https://docs.google.com/spreadsheets/d/1Xobosocq4dg9DNyLcXlFiDJ01Rwvp99tIWgtGukTuDE/edit?usp=sharing"
+                        target="_blank"
+                        >Discord</a
+                    >
+                </div>
+                <audio src="assets/OST1.mp3" autoplay loop></audio>
+            </nav>
+        </header>
+        <router-view :class="{ dark: store.dark }"></router-view>
+    </body>
+</html>

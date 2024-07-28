@@ -1,0 +1,49 @@
+{
+    "id": Moma,
+    "name": "8765876",
+    "author": "XDDD",
+    "creators": [],
+    "verifier": "XDDD",
+    "difficulty": "Medium XD",
+    "password": "420000",
+    "verification": "XD",
+    "percentToQualify": 100,
+    "records": [
+        {
+            "user": "XD",
+            "link": "",
+            "percent": 100,
+            "hz": "144"
+        }
+    ]
+}
+
+
+
+{
+    "id": 1,
+    "name": "1",
+    "author": "1",
+    "creators": ["1, 2, Ect"],
+    "verifier": "3",
+    "difficulty": "Extreme Demon",
+    "password": "Free Copy",
+    "verification": "YT LINK",
+    "percentToQualify": xx,
+    "records": [
+        {
+            "user": "1",
+            "link": "yt",
+            "percent": 0,
+            "hz": "0",
+            "mobile": true
+        },
+        {
+            "user": "2",
+            "link": "yt",
+            "percent": 0,
+            "hz": "0",
+            "mobile": t.rue (delete this if is not mobile!!)
+        }
+    ]
+}
