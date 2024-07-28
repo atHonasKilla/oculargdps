@@ -1,0 +1,67 @@
+body {
+    color: white;
+    -webkit-text-stroke: 0.8px black;
+    text-align: center;
+    font-family: 'Pusab', sans-serif;
+    filter: drop-shadow(2.5px 2.5px 0px rgba(0, 0, 0, 0.25));
+}
+
+  .levelBG {
+    background-image: linear-gradient(rgb(30, 30, 30), rgb(14, 14, 14));
+    height: 100vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+  font-size: 60px;
+  background: -webkit-linear-gradient(#ffea00, #ffd000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin: 10px;
+}
+
+p {
+  font-size: 35px;
+  line-height: 5px;
+}
+
+.highlight {
+  color: rgb(0, 255, 0);
+}
+
+.images {
+  transition-duration: 0.2s;
+  filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 1));
+  margin: 5px;
+}
+
+.images:hover {
+  height: 80px;
+  width: 80px;
+  transition-duration: 0.2s;
+  }
+
+  .link {
+    color: rgb(0, 225, 255);
+    -webkit-text-stroke: 0.8px black;
+    text-align: center;
+    font-family: 'Pusab', sans-serif;
+    text-decoration: none;
+    transition-duration: 0.2s;
+    filter: drop-shadow(2.5px 2.5px 0px rgba(0, 0, 0, 0.25));
+}
+
+.link:hover {
+    color: aqua;
+    transition-duration: 0.1s;
+}
+
+  .redo {
+  position: fixed;
+  text-align: right;
+  top: 100-cm;
+  right: 7px;
+  }
